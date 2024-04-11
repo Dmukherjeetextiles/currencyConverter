@@ -2,6 +2,7 @@ import streamlit as st
 from datetime import date
 import requests
 
+access_key = st.secrets["access_key"]
 
 # Currency symbols dictionary (from Forbes article)
 currency_symbols = {
