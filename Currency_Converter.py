@@ -2,8 +2,6 @@ import streamlit as st
 from datetime import date
 import requests
 
-# API access key (provided)
-access_key = "bceede9bea0810fda9e2e095ec6c8d19" 
 
 # Currency symbols dictionary (from Forbes article)
 currency_symbols = {
